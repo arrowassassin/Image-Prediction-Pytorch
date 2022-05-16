@@ -20,16 +20,16 @@ To test out the code, the folloing rules need to be followed -
 
 3. To perform train operation, use the follwoing line of code -
 
-!python main.py --datadir "C:/Users/Piyush Nayak/OneDrive/Documents/TAMU assignments/DL/Final Project" --oper "train" --maxepochs 200 --modeldir "model_v11" --lr 0.01 
+!python main.py --datadir "C:/Users/XYZ/Project" --oper "train" --maxepochs 200 --modeldir "model_v11" --lr 0.01 
 
 Incase of more customisations, you can add --params(ex - batch_size, weight_decay, etc) to the above mentioned line of code accordingly.
 
 4. To perform test operation, use the following line of code - 
 
-!python main.py --datadir "C:/Users/Piyush Nayak/OneDrive/Documents/TAMU assignments/DL/Final Project" --oper "test" --testepoch 190 --modeldir "model_v11" 
+!python main.py --datadir "C:/Users/XYZ/Project" --oper "test" --testepoch 190 --modeldir "model_v11" 
 
 5. To perform predict operation, use the following line of code - 
 
-!python main.py --datadir "C:/Users/Piyush Nayak/OneDrive/Documents/TAMU assignments/DL/Final Project" --oper "predict" --testepoch 190 --modeldir "model_v11" 
+!python main.py --datadir "C:/Users/XYZ/Project" --oper "predict" --testepoch 190 --modeldir "model_v11" 
 
 Kindly, keep the private_images.npy file in the same main folder as the other sub-folders. 
