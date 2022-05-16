@@ -8,15 +8,15 @@ To test out the code, the folloing rules need to be followed -
 
 2. The following configurations are needed to be understood to customisably run the model - 
 
-"--datadir", default = "/content/drive/MyDrive/Project-mobilenet/Project/" :- Pass the location of the main folder here which contains all of the sub folders
-"--oper", default = "train" :- Pass the operation whiich is needed to be done, namely train, test and predict
-'--lr', default=0.1 :- You can customise the learning rate here
-"--save_interval", default=10 :- The model checkpoint intervals can be saved here
-"--batch_size", default = 256 :- You can customise the batch size using this
-"--weight_decay", default=1e-4 :- The weight decay can be changed using this
-"--modeldir", default='model_v11' :- The name of the folder where the checkpoints will be stores. In this case a new folder called model_v11 will be created
-"--maxepochs", default=200 :- Total number of epochs to be performed
-"--testepoch", default=190 :- The model checkpoint to be used to perform the test operation on the CIFAR-10 test dataset
+- "--datadir", default = "/content/drive/MyDrive/Project-mobilenet/Project/" :- Pass the location of the main folder here which contains all of the sub folders
+- "--oper", default = "train" :- Pass the operation whiich is needed to be done, namely train, test and predict
+- '--lr', default=0.1 :- You can customise the learning rate here
+- "--save_interval", default=10 :- The model checkpoint intervals can be saved here
+- "--batch_size", default = 256 :- You can customise the batch size using this
+- "--weight_decay", default=1e-4 :- The weight decay can be changed using this
+- "--modeldir", default='model_v11' :- The name of the folder where the checkpoints will be stores. In this case a new folder called model_v11 will be created
+- "--maxepochs", default=200 :- Total number of epochs to be performed
+- "--testepoch", default=190 :- The model checkpoint to be used to perform the test operation on the CIFAR-10 test dataset
 
 3. To perform train operation, use the follwoing line of code -
 
